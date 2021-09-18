@@ -1,0 +1,64 @@
+body{
+    --main:#424242;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+li {
+    display: inline;
+    padding: 1rem;
+}
+
+nav{
+    background-color: var(--main);
+    color: #FFFF;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+.fellows{
+    background-color: darkgrey;
+    color: var(--main);
+}
+
+.carousel{
+    height: 30vh;
+    background: rgb(182, 178, 163);
+}
+
+h2 {
+    text-align: center;
+    padding: 5vh;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+span{
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+article{
+    display: inline-block;
+    background: rgb(182, 178, 163);
+    width: calc(90% / 3);
+    margin-left: 1.5em;
+    height: 40vh;
+}
+hr{
+    margin-top: 15vh;
+    width: 95vw;
+}
+form h2 {
+    text-align: left;
+    padding: 1vh 0 0 2vw;
+}
+
+input, textarea, select{
+    display: block;
+    width: 70vw;
+    margin: 1.5vh auto;
+}
+
+select {
+    background-color: transparent;
+}
